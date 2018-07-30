@@ -1,0 +1,529 @@
+.cont {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+}
+
+.top {
+    background-color: #35373e;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 0;
+}
+
+.top .fl {
+    margin-top: 2px;
+}
+
+.top input[type="text"], .top input[type="password"] {
+    border-radius: 20px;
+    padding: 2px 15px;
+    color: #999999;
+    width: 100px;
+    margin-left: 5px;
+}
+
+.top input[type="button"] {
+    background-color: #1ba453;
+    border-radius: 20px;
+    padding: 2px 15px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.logo {
+    background-color: #1ba453;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 25px 0;
+}
+
+.logo .fr {
+    margin-top: 20px;
+}
+
+.logo a {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.menu {
+    background-color: #3eb56a;
+    background-color: rgba(27, 164, 83, .8);
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.appoint {
+    background-color: #1ba453;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 15px 10px;
+    color: #ffffff;
+}
+
+.menu a:hover {
+    background-color: #1ba453;
+}
+
+.colrow {
+    margin-top: 40px;
+}
+
+/*.col2row{-webkit-width: calc(50% - 20px); -moz-width: calc(50% - 20px); -ms-width: calc(50% - 20px); width: calc(50% - 20px);}*/
+.col2row {
+    width: 580px;
+}
+
+.col4row {
+    width: 25%;
+}
+
+.col3row {
+    width: 373px;
+    margin-right: 40px;
+}
+
+.colrow .col2row:last-child {
+    margin-left: 40px;
+}
+
+.colrow .col3row:last-child {
+    margin: 0;
+}
+
+.colrow .hd {
+    font-size: 24px;
+    color: #4d4d4d;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1ba453;
+    margin-bottom: 10px;
+}
+
+.colrow .hd a {
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+.colrow .hd a span {
+    font-family: "宋体";
+}
+
+.colrow .hd .fl img, .colrow .hd .fl p {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.colrow a:hover {
+    color: #1ba453;
+}
+
+.colrow-body .news li img {
+    margin: 21px 5px 0 0;
+}
+
+.colrow-body .news li a {
+    border-bottom: 1px solid #f5f5f5;
+    display: block;
+    margin-left: 15px;
+    padding: 15px 0;
+}
+
+.colrow-body .news li a span {
+    color: #1a1a1a;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 100px;
+}
+
+.colrow-body .news li a time {
+    color: #999999;
+}
+
+.colrow-body .news li a span:hover {
+    color: #1ba453;
+}
+
+.colrow-body .news li:last-child a {
+    border: 0;
+}
+
+.dtbody .dtbody-swipe {
+    width: 351px;
+    margin-top: 10px;
+}
+
+.dtbody .news {
+    margin-left: 381px;
+}
+
+.swiper-container{ height: 247px; }
+
+.swiper-pagination {
+  position: absolute;
+  left: 0;
+  text-align: right;
+  bottom:5px;
+  width: 100%;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin: 0 3px;
+  cursor: pointer;
+  background: transparent;
+  opacity: .8;
+  border: 1px solid #ffffff;
+}
+.swiper-pagination-switch:last-child{ margin-right: 10px; }
+.swiper-active-switch {
+  background: #079641;
+  border: 1px solid #079641;
+}
+
+
+
+
+.pics .col4row > div {
+    position: relative;
+}
+
+.pics .wrap {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(27, 164, 83, .7);
+    color: #ffffff;
+    display: none;
+    cursor: pointer;
+}
+#more {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+#more label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
+#more label span {
+    font-family: SimSun-ExtB;
+}
+.pics .wrap p {
+    font-size: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 20%;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.pics .wrap a, .pics .wrap label {
+    color: #ffffff;
+    position: absolute;
+    bottom: 15px;
+    left: 20%;
+}
+.pics .wrap label {
+    cursor: pointer;
+}
+.pics .wrap a span {
+    font-family: "宋体";
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.pics .col4row:last-child .wrap a {
+    left: 45%;
+    bottom: 35%;
+    font-size: 30px;
+}
+
+.quick a {
+    display: block;
+    float: left;
+    border: 1px solid #079641;
+    color: #079641;
+    border-radius: 20px;
+    padding: 7px 0;
+    margin: 10px 0;
+    width: 170px;
+    text-align: center;
+}
+
+.quick a:nth-child(even) {
+    float: right;
+}
+
+.quick a:hover {
+    background-color: #079641;
+    color: #ffffff;
+}
+
+.teach {
+    position: relative;
+    min-height: 429px;
+}
+
+.teach-bg {
+    position: relative;
+    z-index: 1;
+    min-height: 429px;
+
+}
+
+.teach .bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.teach .cont {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -600px;
+    margin-top: -209.5px;
+}
+
+.teach .hd {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.teach .hd a {
+    color: #ffffff;
+}
+
+.teach .colrow-body .news li a span {
+    color: #ffffff;
+}
+
+.teach .colrow-body .news li a time {
+    color: #ffffff;
+}
+
+.teacher {
+    background: rgba(255, 255, 255, .3);
+    padding: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 15px;
+    display: block;
+}
+
+.teacher img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+/*.teacher p{ margin-left: 95px; line-height: 1.5em; overflow: hidden; color: #ffffff;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; }*/
+.teacher p {
+    margin-left: 95px;
+    line-height: 1.5em;
+    overflow: hidden;
+    color: #ffffff;
+    height: 70px;
+    text-overflow: ellipsis;
+}
+
+.box {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+
+.box1, .box2 {
+    position: absolute;
+}
+
+.sub-banner img {
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.foot {
+    background-color: #1BA453;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.foot .hd {
+    border-bottom: 1px solid #ffffff;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.foot .hd li {
+    float: left;
+    margin-right: 50px;
+}
+
+.foot .footbody {
+    padding: 30px 0;
+}
+
+.foot .cont .logoimg {
+    float: left;
+    margin: -5px 30px 0 0;
+}
+
+.foot .cont ul {
+    float: left;
+    margin-left: 150px;
+}
+
+.foot .cont ul li {
+    padding: 10px 0;
+}
+
+.foot .cont ul li a {
+    color: #ffffff;
+}
+
+.foot .cont ul li a span {
+    font-family: "宋体";
+    margin-left: 5px;
+}
+
+.bot {
+    background-color: #35373e;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.bot a {
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.gaikuang {
+    margin-top: -76px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.gaikuang .tabs-bg {
+    width: 260px;
+    text-align: center;
+}
+
+.gaikuang .tabs-bg .tit {
+    background-color: rgba(27, 164, 83, .8);
+    font-size: 22px;
+    color: #ffffff;
+    height: 76px;
+    line-height: 76px;
+}
+
+.gaikuang .tabs-bg ul {
+    background-color: #f0f0f0;
+    border: 1px solid #e3e3e3;
+    border-bottom: 0;
+    border-top: 0;
+    color: 1 a1a1a;
+    font-size: 18px;
+}
+
+.gaikuang .tabs-bg ul li {
+    padding: 20px 0;
+    border-bottom: 1px solid #e3e3e3;
+    cursor: pointer;
+}
+
+.gaikuang .tabs-bg ul li.hot {
+    color: #079641;
+}
+
+.tab-cont {
+    margin-left: 300px;
+}
+
+.breadcrumb {
+    background-color: rgba(27, 164, 83, .8);
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+.breadcrumb img {
+    margin-right: 10px;
+}
+
+.breadcrumb span {
+    margin: 5px;
+    font-family: "宋体";
+}
+
+.tab-cont .tab {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.tab-cont .tab h1 {
+    font-size: 24px;
+    color: #1a1a1a;
+    margin: 10px 0;
+}
+
+.tab-cont .tab small {
+    font-size: 14px;
+    color: #999999;
+}
+
+.tab-cont .tab small span {
+    margin-left: 10px;
+}
+
+.tab-cont .tab .txt {
+    font-size: 14px;
+    color: #1a1a1a;
+    margin-top: 30px;
+}
+
+.tab-cont .tab .txt p {
+    text-indent: 2em;
+    line-height: 1.5em;
+    text-align: left;
+}
